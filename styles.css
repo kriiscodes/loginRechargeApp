@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body
+{
+    background-color: #f6f6f6 ;
+}
+nav{
+    
+    padding-block: 50px;
+}
+
+.genLayout{
+     margin: auto;
+    max-width: 1000px;
+}
+
+.innerNav{
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.navItems{
+    display: flex;
+    gap: 3rem;
+}
+
+.navItems > a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: black;
+    font-size: 14px;
+}
+
+.logins{
+    display: flex;
+    gap: 1rem;
+}
+
+.logins > select{
+    border: none;
+    background-color: transparent;
+    text-transform: capitalize;
+    color: black;
+    font-size: 13px;
+}
+
+.logins > button{
+    border: none;
+    background-color: #fff;
+    padding: .3rem .8rem;
+    border-radius: 25px;
+    text-transform: capitalize;
+    font-size: 12px;
+    color:  #4461F2;;
+}
+
+.logins > button:nth-child(2){
+    background-color: transparent;
+    border-radius: 0;
+    color: #4461F2;
+    font-weight: bold;
+}
+
+.logins > button:nth-child(2) > span{
+    border-bottom: 2px solid  #4461F2;;
+}
+.logins > button:nth-child(3) {
+    font-weight: bold;
+
+}
+/* styling for main */
+section{
+    padding-top: 7rem;
+    display: flex;
+}
+
+.contactContent{
+    flex: 1;
+    background-image: url("./images/Ellipse\ 1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contactContent > h1 {
+
+    font-size: 2.5rem;
+    width: 300px;
+    font-weight: 600;
+    line-height: 3.3rem;
+}
+
+.contactContent > p {
+    margin-top: 2rem;
+    width: 230px;
+}
+
+.contactContent > p > a {
+    color: #4461F2;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.contactImg {
+    flex: 1;
+    margin-right: 45px;
+}
+
+.contactImg > img{
+    width: 100%;
+}
+
+form{
+    flex: 1;
+}
+
+.inputContainer {
+    background-color: #eaf0f7;
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+    margin-bottom: 10px;
+}
+
+.inputContainer > input{
+    border: none;
+    outline: none;
+    width: 100%;
+    border-radius: 5px;
+    padding: .7rem 1rem;
+    background-color: transparent;
+}
+
+.inputContainer > input::placeholder{
+    text-transform: capitalize;
+    font-size: 13px;
+    color: #4f555a;
+}
+.inputContainer > span > img{
+    width: 16px;
+    
+    
+}
+form > a {
+    display: block;
+    text-align: end;
+    text-transform: capitalize;
+    font-size: 12px;
+    text-decoration: none;
+    color: #c7c7c7;
+    font-weight: 300;
+}
+
+form  button {
+
+    background-color: #4461f2;
+    border: none;
+    padding: 0.8rem 1rem;
+    margin-top: 1.5rem;
+    width: 100%;
+    color: white;
+    text-transform: capitalize;
+    border-radius: 5px;
+
+}
+
+.socialIcons{
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.socialIcons > span{
+    /* border: 1px solid grey; */
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90px;
+    height: 50px;
+    font-size: 1.5rem;
+}
+
+#apple{
+    /* border: solid 2px; */
+    width: 110px;
+    margin-top: 12px;
+
+}
+
+
+.socialIcons > span > img{
+    width: 100%
+}
+
